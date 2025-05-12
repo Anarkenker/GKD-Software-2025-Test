@@ -1,4 +1,4 @@
-#include "../include/model.h"
+#include "../include/Model.h"
 
 Model::Model() {
     weight1 = Matrix(784, 500);

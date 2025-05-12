@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build",
+  "command": "/usr/bin/clang++ -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/read_fc_plus.dir/code/part3/read_fc.cpp.o -c /Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/read_fc.cpp",
+  "file": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/read_fc.cpp",
+  "output": "CMakeFiles/read_fc_plus.dir/code/part3/read_fc.cpp.o"
+},
+{
+  "directory": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build",
+  "command": "/usr/bin/clang++ -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/read_fc_plus.dir/code/part3/scr/Matrix_template.cpp.o -c /Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/scr/Matrix_template.cpp",
+  "file": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/scr/Matrix_template.cpp",
+  "output": "CMakeFiles/read_fc_plus.dir/code/part3/scr/Matrix_template.cpp.o"
+},
+{
+  "directory": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build",
+  "command": "/usr/bin/clang++ -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/read_fc_plus.dir/code/part3/scr/Model_template.cpp.o -c /Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/scr/Model_template.cpp",
+  "file": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/scr/Model_template.cpp",
+  "output": "CMakeFiles/read_fc_plus.dir/code/part3/scr/Model_template.cpp.o"
+}
+]
