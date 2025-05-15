@@ -71,6 +71,15 @@
         "stop_token": "cpp",
         "text_encoding": "cpp",
         "thread": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "__hash_table": "cpp",
+        "__node_handle": "cpp",
+        "__tree": "cpp",
+        "any": "cpp",
+        "codecvt": "cpp",
+        "complex": "cpp",
+        "iomanip": "cpp",
+        "map": "cpp",
+        "valarray": "cpp"
     }
 }

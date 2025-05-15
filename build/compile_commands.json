@@ -1,20 +1,50 @@
 [
 {
   "directory": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build",
-  "command": "/usr/bin/clang++ -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/read_fc_plus.dir/code/part3/read_fc.cpp.o -c /Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/read_fc.cpp",
-  "file": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/read_fc.cpp",
-  "output": "CMakeFiles/read_fc_plus.dir/code/part3/read_fc.cpp.o"
+  "command": "/usr/bin/clang++ -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part1/include -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part5/tcpSocket -isystem /opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Part6_ImageProcessing.dir/code/part6/normal.cpp.o -c /Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part6/normal.cpp",
+  "file": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part6/normal.cpp",
+  "output": "CMakeFiles/Part6_ImageProcessing.dir/code/part6/normal.cpp.o"
 },
 {
   "directory": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build",
-  "command": "/usr/bin/clang++ -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/read_fc_plus.dir/code/part3/scr/Matrix_template.cpp.o -c /Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/scr/Matrix_template.cpp",
-  "file": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/scr/Matrix_template.cpp",
-  "output": "CMakeFiles/read_fc_plus.dir/code/part3/scr/Matrix_template.cpp.o"
+  "command": "/usr/bin/clang++ -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part1/include -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part5/tcpSocket -isystem /opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Part6_ImageProcessing.dir/code/part1/scr/Model.cpp.o -c /Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part1/scr/Model.cpp",
+  "file": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part1/scr/Model.cpp",
+  "output": "CMakeFiles/Part6_ImageProcessing.dir/code/part1/scr/Model.cpp.o"
 },
 {
   "directory": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build",
-  "command": "/usr/bin/clang++ -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/read_fc_plus.dir/code/part3/scr/Model_template.cpp.o -c /Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/scr/Model_template.cpp",
-  "file": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part3/scr/Model_template.cpp",
-  "output": "CMakeFiles/read_fc_plus.dir/code/part3/scr/Model_template.cpp.o"
+  "command": "/usr/bin/clang++ -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part1/include -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part5/tcpSocket -isystem /opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Part6_ImageProcessing.dir/code/part1/scr/Matrix.cpp.o -c /Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part1/scr/Matrix.cpp",
+  "file": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part1/scr/Matrix.cpp",
+  "output": "CMakeFiles/Part6_ImageProcessing.dir/code/part1/scr/Matrix.cpp.o"
+},
+{
+  "directory": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build",
+  "command": "/usr/bin/clang++ -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part1/include -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part5/tcpSocket -isystem /opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Part6_ImageProcessing.dir/code/part5/tcpSocket/tcpSocket.cpp.o -c /Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part5/tcpSocket/tcpSocket.cpp",
+  "file": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part5/tcpSocket/tcpSocket.cpp",
+  "output": "CMakeFiles/Part6_ImageProcessing.dir/code/part5/tcpSocket/tcpSocket.cpp.o"
+},
+{
+  "directory": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build",
+  "command": "/usr/bin/clang++ -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part1/include -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part5/tcpSocket -isystem /opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Server.dir/code/part5/Server.cpp.o -c /Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part5/Server.cpp",
+  "file": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part5/Server.cpp",
+  "output": "CMakeFiles/Server.dir/code/part5/Server.cpp.o"
+},
+{
+  "directory": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build",
+  "command": "/usr/bin/clang++ -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part1/include -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part5/tcpSocket -isystem /opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Server.dir/code/part1/scr/Model.cpp.o -c /Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part1/scr/Model.cpp",
+  "file": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part1/scr/Model.cpp",
+  "output": "CMakeFiles/Server.dir/code/part1/scr/Model.cpp.o"
+},
+{
+  "directory": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build",
+  "command": "/usr/bin/clang++ -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part1/include -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part5/tcpSocket -isystem /opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Server.dir/code/part1/scr/Matrix.cpp.o -c /Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part1/scr/Matrix.cpp",
+  "file": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part1/scr/Matrix.cpp",
+  "output": "CMakeFiles/Server.dir/code/part1/scr/Matrix.cpp.o"
+},
+{
+  "directory": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build",
+  "command": "/usr/bin/clang++ -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part1/include -I/Users/macbookpro/Documents/code/GKD-Software-2025-Test/../code/part5/tcpSocket -isystem /opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Server.dir/code/part5/tcpSocket/tcpSocket.cpp.o -c /Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part5/tcpSocket/tcpSocket.cpp",
+  "file": "/Users/macbookpro/Documents/code/GKD-Software-2025-Test/code/part5/tcpSocket/tcpSocket.cpp",
+  "output": "CMakeFiles/Server.dir/code/part5/tcpSocket/tcpSocket.cpp.o"
 }
 ]

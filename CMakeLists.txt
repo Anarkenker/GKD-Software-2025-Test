@@ -1,15 +1,38 @@
 cmake_minimum_required(VERSION 3.10)
-project(part3)
+
+project(Part6_ImageProcessing)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(read_fc_plus    
-    code/part3/read_fc.cpp
-    code/part3/scr/Matrix_template.cpp
-    code/part3/scr/Model_template.cpp
+find_package(OpenCV REQUIRED)
+find_package(nlohmann_json REQUIRED)
+
+include_directories(
+    ${OpenCV_INCLUDE_DIRS}
+    ../code/part1/include
+    ../code/part5/tcpSocket
 )
 
-target_include_directories(read_fc_plus PRIVATE code/part3/include)
+set(CLIENT_SOURCES
+    ../code/part6/normal.cpp
+    ../code/part1/scr/Model.cpp
+    ../code/part1/scr/Matrix.cpp
+    ../code/part5/tcpSocket/tcpSocket.cpp
+)
 
-find_package(nlohmann_json CONFIG REQUIRED)
-target_link_libraries(read_fc_plus PRIVATE nlohmann_json::nlohmann_json)
+add_executable(Part6_ImageProcessing ${CLIENT_SOURCES})
+target_link_libraries(Part6_ImageProcessing ${OpenCV_LIBS})
+target_link_libraries(Part6_ImageProcessing nlohmann_json::nlohmann_json)
+
+set(SERVER_SOURCES
+    ../code/part5/Server.cpp
+    ../code/part1/scr/Model.cpp
+    ../code/part1/scr/Matrix.cpp
+    ../code/part5/tcpSocket/tcpSocket.cpp
+)
+
+add_executable(Server ${SERVER_SOURCES})
+target_link_libraries(Server ${OpenCV_LIBS})
+target_link_libraries(Server nlohmann_json::nlohmann_json)
+

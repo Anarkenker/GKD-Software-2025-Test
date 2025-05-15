@@ -145,7 +145,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=part3
+CMAKE_PROJECT_NAME:STATIC=Part6_ImageProcessing
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -212,17 +212,20 @@ CMAKE_TAPI:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/tapi
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//The directory containing a CMake configuration file for OpenCV.
+OpenCV_DIR:PATH=/opt/homebrew/lib/cmake/opencv4
+
+//Value Computed by CMake
+Part6_ImageProcessing_BINARY_DIR:STATIC=/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build
+
+//Value Computed by CMake
+Part6_ImageProcessing_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Part6_ImageProcessing_SOURCE_DIR:STATIC=/Users/macbookpro/Documents/code/GKD-Software-2025-Test
+
 //The directory containing a CMake configuration file for nlohmann_json.
 nlohmann_json_DIR:PATH=/opt/homebrew/share/cmake/nlohmann_json
-
-//Value Computed by CMake
-part3_BINARY_DIR:STATIC=/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build
-
-//Value Computed by CMake
-part3_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-part3_SOURCE_DIR:STATIC=/Users/macbookpro/Documents/code/GKD-Software-2025-Test
 
 
 ########################
@@ -368,6 +371,8 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding OpenCV
+FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/opt/homebrew/Cellar/opencv/4.11.0_1][v4.11.0()]
 //Details about finding nlohmann_json
 FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[/opt/homebrew/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake][v3.12.0()]
 

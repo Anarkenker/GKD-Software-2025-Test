@@ -1,3 +1,4 @@
-/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build/CMakeFiles/read_fc_plus.dir
+/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build/CMakeFiles/Part6_ImageProcessing.dir
+/Users/macbookpro/Documents/code/GKD-Software-2025-Test/build/CMakeFiles/Server.dir
 /Users/macbookpro/Documents/code/GKD-Software-2025-Test/build/CMakeFiles/edit_cache.dir
 /Users/macbookpro/Documents/code/GKD-Software-2025-Test/build/CMakeFiles/rebuild_cache.dir
